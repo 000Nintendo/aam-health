@@ -99,8 +99,14 @@
 .banner_button {
   color: white;
   letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
   @media only screen and (max-width: 600px) {
     width: 100%;
+  }
+  &:hover {
+    background: var(--secondary);
+    color: white;
   }
 }
 
@@ -420,12 +426,15 @@
 }
 
 .move_in_container {
-  margin-top: 30px;
+  // margin-top: 30px;
   width: 100%;
   background-color: lightblue;
   height: 850px;
   @media only screen and (max-width: 600px) {
     height: 820px;
+  }
+  @media only screen and (max-width: 400px) {
+    height: 900px;
   }
 }
 
@@ -460,6 +469,7 @@
     @media only screen and (max-width: 600px) {
       font-size: 18px;
       width: 90%;
+      // line-height: 30px;
     }
   }
 }
@@ -511,7 +521,7 @@
     font-weight: 600;
     font-size: 33px;
     margin: 0px;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
     transition: font-size;
     transition-duration: 0.2s;
     transition: font-size 0.4s ease-in-out;
@@ -523,8 +533,9 @@
     margin: 0px;
     font-size: 17px;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     visibility: hidden;
+    line-height: 21px;
     @media only screen and (max-width: 600px) {
       font-size: 15px;
     }
@@ -543,7 +554,7 @@
 .santa_clara_square_location:hover {
   height: 215px;
   h2 {
-    font-size: 45px;
+    font-size: 40px;
     color: white;
     font-weight: 700;
     @media only screen and (max-width: 600px) {
@@ -552,6 +563,9 @@
   }
   p {
     visibility: visible;
+    @media only screen and (max-width: 600px) {
+      font-size: 12px;
+    }
   }
 
   button {
@@ -571,7 +585,7 @@
     font-weight: 600;
     font-size: 33px;
     margin: 0px;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
     transition: font-size;
     transition-duration: 0.2s;
     transition: font-size 0.4s ease-in-out;
@@ -583,8 +597,9 @@
     margin: 0px;
     font-size: 17px;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     visibility: hidden;
+    line-height: 21px;
     @media only screen and (max-width: 600px) {
       font-size: 15px;
     }
@@ -603,7 +618,7 @@
 .san_pedro_square_location:hover {
   height: 215px;
   h2 {
-    font-size: 45px;
+    font-size: 40px;
     color: white;
     font-weight: 700;
     @media only screen and (max-width: 600px) {
@@ -612,6 +627,9 @@
   }
   p {
     visibility: visible;
+    @media only screen and (max-width: 600px) {
+      font-size: 12px;
+    }
   }
 
   button {
@@ -631,7 +649,7 @@
     font-weight: 600;
     font-size: 33px;
     margin: 0px;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
     transition: font-size;
     transition-duration: 0.2s;
     transition: font-size 0.4s ease-in-out;
@@ -643,8 +661,9 @@
     margin: 0px;
     font-size: 17px;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     visibility: hidden;
+    line-height: 21px;
     @media only screen and (max-width: 600px) {
       font-size: 15px;
     }
@@ -663,7 +682,7 @@
 .almaden_ranch_location:hover {
   height: 215px;
   h2 {
-    font-size: 45px;
+    font-size: 40px;
     color: white;
     font-weight: 700;
     @media only screen and (max-width: 600px) {
@@ -672,6 +691,9 @@
   }
   p {
     visibility: visible;
+    @media only screen and (max-width: 600px) {
+      font-size: 12px;
+    }
   }
 
   button {
@@ -691,7 +713,7 @@
     font-weight: 600;
     font-size: 33px;
     margin: 0px;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
     transition: font-size;
     transition-duration: 0.2s;
     transition: font-size 0.4s ease-in-out;
@@ -703,8 +725,9 @@
     margin: 0px;
     font-size: 17px;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     visibility: hidden;
+    line-height: 21px;
     @media only screen and (max-width: 600px) {
       font-size: 15px;
     }
@@ -721,9 +744,9 @@
 }
 
 .hillsdale_mall_location:hover {
-  height: 215px;
+  height: 240px;
   h2 {
-    font-size: 45px;
+    font-size: 40px;
     color: white;
     font-weight: 700;
     @media only screen and (max-width: 600px) {
@@ -732,6 +755,9 @@
   }
   p {
     visibility: visible;
+    @media only screen and (max-width: 600px) {
+      font-size: 12px;
+    }
   }
 
   button {
@@ -751,7 +777,8 @@
     font-weight: 600;
     font-size: 33px;
     margin: 0px;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
+    margin-top: -80px;
     transition: font-size;
     transition-duration: 0.2s;
     transition: font-size 0.4s ease-in-out;
@@ -763,8 +790,9 @@
     margin: 0px;
     font-size: 17px;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     visibility: hidden;
+    line-height: 21px;
     @media only screen and (max-width: 600px) {
       font-size: 15px;
     }
@@ -781,9 +809,12 @@
 }
 
 .redwood_plaza_location:hover {
-  height: 215px;
+  height: 240px;
+  @media only screen and (max-width: 600px) {
+    height: 225px;
+  }
   h2 {
-    font-size: 45px;
+    font-size: 40px;
     color: white;
     font-weight: 700;
     @media only screen and (max-width: 600px) {
@@ -792,6 +823,9 @@
   }
   p {
     visibility: visible;
+    @media only screen and (max-width: 600px) {
+      font-size: 12px;
+    }
   }
 
   button {
@@ -811,7 +845,8 @@
     font-weight: 600;
     font-size: 33px;
     margin: 0px;
-    margin-bottom: 3px;
+    margin-top: -80px;
+    margin-bottom: 0px;
     transition: font-size;
     transition-duration: 0.2s;
     transition: font-size 0.4s ease-in-out;
@@ -823,8 +858,9 @@
     margin: 0px;
     font-size: 17px;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     visibility: hidden;
+    line-height: 21px;
     @media only screen and (max-width: 600px) {
       font-size: 15px;
     }
@@ -843,7 +879,7 @@
 .grand_plaza_location:hover {
   height: 215px;
   h2 {
-    font-size: 45px;
+    font-size: 40px;
     color: white;
     font-weight: 700;
     @media only screen and (max-width: 600px) {
@@ -852,6 +888,9 @@
   }
   p {
     visibility: visible;
+    @media only screen and (max-width: 600px) {
+      font-size: 12px;
+    }
   }
 
   button {
@@ -860,8 +899,10 @@
 }
 
 .phone_app_container {
+  width: 100%;
   display: flex;
   margin-top: 50px;
+  justify-content: center;
   @media only screen and (max-width: 600px) {
     align-items: center;
     justify-content: center;
@@ -902,6 +943,7 @@
   h1 {
     width: 70%;
     margin-bottom: 20px;
+    line-height: 130%;
     @media only screen and (max-width: 600px) {
       font-size: 22px;
       width: 100%;
@@ -933,15 +975,19 @@
 
   input {
     width: 220px;
-    height: 48px;
-    border-radius: 8px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e6e8eb80;
+    padding: 15px 15px;
+    font-size: 16px;
     @media only screen and (max-width: 600px) {
       display: none;
     }
   }
   button {
     background-color: var(--light-blue);
-    color: black;
+    color: white;
     font-weight: bold;
     border: 0px;
     width: 150px;
@@ -976,17 +1022,18 @@
     margin-right: 15px;
     @media only screen and (max-width: 600px) {
       font-size: 20px;
-      display: none;
+      // display: none;
+      width: 20px;
     }
   }
   p {
     font-size: 25px;
     margin-top: 0px;
     @media only screen and (max-width: 600px) {
-      font-size: 15px;
+      font-size: 14px !important;
       text-align: start;
       margin-bottom: 20px;
-      border-bottom: 1px dotted black;
+      // border-bottom: 1p!x dotted black;
       // width: 50%;
       // border: 2px solid red;
       color: var(--light-blue);
@@ -997,6 +1044,25 @@
 .mobile_point {
   @media only screen and (max-width: 600px) {
     padding: 10px 10px 0px 50px;
+  }
+  p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: var(--font-regular);
+    font-size: 18px;
+  }
+  .checkmark {
+    min-width: 31px;
+    height: 35px;
+    background-image: url("/static/icons/check.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    // object-fit: cover;
+    @media only screen and (max-width: 600px) {
+      width: 20px;
+      height: 25px;
+    }
   }
 }
 
@@ -1021,19 +1087,25 @@
   padding: 150px 0px 0px 150px;
   color: white;
   width: 45%;
+  padding-left: 0px;
 
   @media only screen and (max-width: 600px) {
     width: 100%;
     padding: 0px;
     padding: 80px 20px 0px 30px;
+    padding-left: 0px;
   }
   p {
+    margin-bottom: 20px;
     @media only screen and (max-width: 600px) {
       margin: 0px;
       font-size: 13px;
     }
   }
   h1 {
+    margin-bottom: 30px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
     @media only screen and (max-width: 600px) {
       margin: 0px;
       font-size: 22px;
@@ -1042,7 +1114,7 @@
     }
   }
   button {
-    width: 200px;
+    width: 250px;
     height: 50px;
     border: 2px solid white;
     background-color: transparent;
@@ -1057,7 +1129,7 @@
 
 .covid_bottom_contain {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: white;
   margin-top: 350px;
 
@@ -1065,6 +1137,7 @@
     flex-direction: column;
     padding: 0px 20px 0px 30px;
     margin-top: 70px;
+    padding-left: 0px;
   }
 
   p {
@@ -1094,10 +1167,14 @@
 
 .specialities_section {
   margin-bottom: 100px;
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 50px;
+  }
 }
 
 .move_in_content {
   h2 {
     margin-bottom: 15px;
+    color: var(--secondary);
   }
 }
